@@ -1,9 +1,8 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto",  Tahoma, sans-serif;
+    color: color: #212121;
 }
-button {
-    font-family: inherit;
-}
+
 .logo{
     font-family: "Raleway", sans-serif;
     text-decoration: none;
@@ -63,10 +62,19 @@ button {
     letter-spacing: 0.02em;
     color: #212121;
 }
-.header-link:hover {
+
+.header-link-cont{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.header-link:hover, .header-link-cont:hover{
     color: #2196F3;
 }
-.header-link:focus {
+.header-link:focus, .header-link-cont:focus{
     color: #2196F3;
 }
 .current {    
@@ -101,6 +109,9 @@ font-family: inherit;
 background-color: #2196F3; ;
 }
 
+.pointer {
+  cursor: pointer;
+}
 /* --------------------------ADVANTAGE------------------- */
 
 .advantage {
@@ -265,6 +276,7 @@ color: #212121;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    font-family: inherit;
 }
 .filter-btn:hover{
     font-weight: 500;
