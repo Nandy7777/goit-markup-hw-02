@@ -8,3 +8,299 @@ button {
     font-family: "Raleway", sans-serif;
     text-decoration: none;
 }
+
+.visually-hidden {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}
+
+/* -----------------------------HEADER------------------------------------ */
+
+.header {
+    background: #FFFFFF;
+}
+.header-navigation {
+}
+
+.header-logo {
+    color: #2196F3;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.header-logo:focus{
+    color: #2196F3;
+}
+
+.header-logo-part{
+    color: #000000;
+}
+
+.header-list {
+    list-style: none; 
+}
+
+.header-item {
+   
+    
+}
+
+.header-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.header-link:hover {
+    color: #2196F3;
+}
+.header-link:focus {
+    color: #2196F3;
+}
+.current {    
+    color: #2196F3;
+}
+
+/* ---------------------------HERO------------------ */
+
+.hero {
+    background: #2F303A;
+}
+.hero-tittle { 
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+font-family: inherit;
+background-color: #2196F3; ;
+}
+
+/* --------------------------ADVANTAGE------------------- */
+
+.advantage {
+}
+.visually-hidden {
+}
+.advantage-list {
+    list-style: none;
+}
+.advantage-item {
+}
+
+.advantage-heading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.advantage-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ----------------ABOUT----------------- */
+.about {
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.about-list {
+    list-style: none;
+}
+.about-item {
+}
+.about-image {
+}
+
+/* --------------------TEAM------------------------ */
+.team {
+}
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-list {
+    list-style: none;
+}
+
+.team-item {
+}
+.team-image {
+}
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ------------------FOOTER------------------ */
+.footer {
+    background: #2F303A;
+}
+
+.footer-logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+}
+
+.footer-logo:focus {
+    color: #2196F3;
+}
+
+
+.footer-logo-part{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
+
+.footer-addr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.footer-list {
+     list-style: none; 
+}
+
+.footer-item {
+}
+
+.footer-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:focus{
+    color: #2196F3;
+}
+
+.footer-link:hover{
+    color: #2196F3;
+}
+
+/* ---------------------FILTER PORTFOLIO--------------- */
+.filter-list {
+    list-style: none;
+}
+
+.filter-item {
+}
+
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.filter-btn:hover{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background-color:  #2196F3;;
+}
+
+.filter-link {
+    text-decoration: none;
+}
+
+/* ----------------------PROJECTS PORTFOLIO------------ */
+
+.projects-list {
+    list-style: none;
+}
+.projects-item {
+}
+.projects-link {
+    text-decoration: none;
+}
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.project-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
