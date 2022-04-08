@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", Tahoma, sans-serif;
     color: #212121;
+    background-color: #FFFFFF;
 }
 
 :root {
@@ -121,7 +122,7 @@ body {
 /* --------------------------------------ABOUT------------------------ */
 /* -------------------------------------TEAM------------------------------ */
 .team {
-    background-color: #F5F4FA;;
+    background-color: #F5F4FA;
 }
 
 .team-member {
