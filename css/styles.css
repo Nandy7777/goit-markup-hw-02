@@ -31,10 +31,6 @@ body {
     font-size: 26px;
     line-height: 1.19;
 }
-/*.logo:focus{
-    color: var(--accent-color);
-}
-  */
 
 .list {
     list-style: none;
@@ -58,10 +54,6 @@ body {
 .header {
     background: var(--primary-white-color)
 }
-
-/* .header-logo{ 
-    color: var(--accent-color)
-}*/
 
 .header-logo-part{
     color: #000000;
