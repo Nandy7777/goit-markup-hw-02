@@ -31,10 +31,10 @@ body {
     font-size: 26px;
     line-height: 1.19;
 }
-
-.logo:focus{
+/*.logo:focus{
     color: var(--accent-color);
 }
+  */
 
 .list {
     list-style: none;
@@ -59,9 +59,9 @@ body {
     background: var(--primary-white-color)
 }
 
-.header-logo{
+/* .header-logo{ 
     color: var(--accent-color)
-}
+}*/
 
 .header-logo-part{
     color: #000000;
@@ -77,7 +77,7 @@ body {
 .header-link-cont{
     color: var(--sercondary-text-color)
 }
-.header-link:hover, .header-logo:focus, .header-link-cont:hover, .header-link:focus, .header-link-cont:focus, .current {
+.header-link:hover, .header-logo:focus, .header-link-cont:hover, .header-link:focus, .header-link-cont:focus, .current, .logo:focus, .header-logo, .link-footer:focus, .link-footer:hover {
     color: var(--accent-color);
 }  
     
@@ -154,10 +154,7 @@ body {
 }
 
 .footer-logo-part{
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    color: #FFFFFF;
+    color: var(--primary-white-color)
 
 }
 .footer-link{
@@ -165,17 +162,18 @@ body {
     line-height: 1.71;
 }
 .footer-addr {
-    color: #FFFFFF;
     font-style: normal;
+    color: #FFFFFF
 }
 
 .link-footer {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.link-footer:focus, .link-footer:hover{
+/* .link-footer:focus, .link-footer:hover{
     color: var(--accent-color)
-}
+} */
+
 
 /* -----------------------------------FILTER PORTFOLIO-------------------- */
 
