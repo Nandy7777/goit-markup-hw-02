@@ -9,8 +9,8 @@ body {
     font-size: 14px;
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;
-    color: var(--main-text-color)
-    background-color: var(--primary-white-color)
+    color: var(--main-text-color);
+    background-color: var(--primary-white-color);
 }
 
 .visually-hidden {
@@ -27,6 +27,7 @@ body {
 .logo{
     font-family: "Raleway", sans-serif;
     text-decoration: none;
+    color: var(--accent-color);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -46,14 +47,7 @@ body {
     text-align: center;
  }
 
- .button{
-     cursor: pointer;
- }
 /* ------------------------------------HEADER--------------------------------- */
-
-.header {
-    background: var(--primary-white-color)
-}
 
 .header-logo-part{
     color: #000000;
@@ -67,9 +61,17 @@ body {
 }
 
 .header-link-cont{
-    color: var(--sercondary-text-color)
+    color: var(--sercondary-text-color);
 }
-.header-link:hover, .header-logo:focus, .header-link-cont:hover, .header-link:focus, .header-link-cont:focus, .current, .logo:focus, .header-logo, .link-footer:focus, .link-footer:hover {
+
+.header-link:hover, 
+.header-link-cont:hover, 
+.header-link:focus, 
+.header-link-cont:focus, 
+.current, 
+.logo:focus, 
+.link-footer:focus, 
+.link-footer:hover {
     color: var(--accent-color);
 }  
     
@@ -86,10 +88,10 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--primary-white-color)
+    color: var(--primary-white-color);
 }
 
-.hero-btn {
+.button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -97,23 +99,24 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     font-family: inherit;
-    background-color: var(--accent-color)
+    background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 /* --------------------------------------ADVANTAGE-------------------------- */
 
 .advantage-heading {
-    font-size: 14px
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    color: var(--main-text-color)
+    color: var(--main-text-color);
 }
 
 .advantage-desc {
     line-height: 1.71;
-    color: var(--sercondary-text-color)
+    color: var(--sercondary-text-color);
 }
 
 /* --------------------------------------ABOUT------------------------ */
@@ -133,7 +136,7 @@ body {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    color: var(--sercondary-text-color)
+    color: var(--sercondary-text-color);
 }
 
 /* --------------------------------------FOOTER----------------------------- */
@@ -141,21 +144,18 @@ body {
     background: #2F303A;
 }
 
-.footer-logo{
-    color: #2196F3;
-}
-
 .footer-logo-part{
-    color: var(--primary-white-color)
-
+    color: var(--primary-white-color);
 }
+
 .footer-link{
     font-weight: 400;
     line-height: 1.71;
 }
+
 .footer-addr {
     font-style: normal;
-    color: #FFFFFF
+    color: var(--primary-white-color);
 }
 
 .link-footer {
@@ -164,23 +164,25 @@ body {
 
 /* -----------------------------------FILTER PORTFOLIO-------------------- */
 
-.btn {
+.filter-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     background: #F5F4FA;
-    color: #212121;
+    color: var(--main-text-color);
     font-family: inherit;
+    cursor: pointer;
 }
-.filter-btn-current {
-    color: #FFFFFF;
+.filter-btn.current {
+    color: var(--primary-white-color);
     background-color: var(--accent-color);
     
 }
-.filter-btn:hover{
-    color: #FFFFFF;
-    background-color:  #2196F3;;
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
 
 
@@ -194,5 +196,5 @@ body {
 }
 .project-type {
     line-height: 1.87px;
-    color: var(--sercondary-text-color)
+    color: var(--sercondary-text-color);
 }
